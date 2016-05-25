@@ -10,15 +10,23 @@ module.exports = {
   },
   module:{
     loaders: [
-    {
-      test: /\.jsx?$/,
-      exclude: /node_modules/,
-      loaders: ["react-hot", "babel-loader"]
-    },
-    {
-      test: /\.html$/,
-      loader: "file?name=[name].[ext]"
-    }
+      {
+        test: /\.jsx?$/,
+        exclude: /node_modules/,
+        loaders: ["react-hot", "babel-loader"]
+      },
+      {
+        test: /\.html$/,
+        loader: "file?name=[name].[ext]"
+      },
+      {
+        test: /\.less$/,
+        loader: "style!css!autoprefixer!less"
+      },
+      {
+        test: /\.css$/,
+        loader: "style!css"
+      }
     ]
   }
 }
