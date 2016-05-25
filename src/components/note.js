@@ -5,7 +5,7 @@ export default React.createClass({
   render: function(){
     return (
       <div className='note'>
-        {this.props.children}
+        {this.props.value}
         <span>
         </span>
       </div>
