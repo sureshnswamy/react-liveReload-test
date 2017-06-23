@@ -1,4 +1,4 @@
-# react-webpack-setup
+# react-live-edit
 React Webpack Starter Kit
 
 The idea is to provide a minimal starter kit that could be used for React Projects. The starter makes use of 

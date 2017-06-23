@@ -11,7 +11,8 @@ var productsData = [
   { id:"1", name: "Shoes", price: "20", isStock: false},
   { id:"2", name: "Shirt", price: "40", isStock: true},
   { id:"3", name: "Tie", price: "24", isStock: false},
-  { id:"4", name: "Socks", price: "18", isStock: true}
+  { id:"4", name: "Socks", price: "23", isStock: true},
+  { id:"5", name: "Kerchief", price: "13", isStock: true}
 ];
 
 ReactDOM.render( 
